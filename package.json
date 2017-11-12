@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "convict": "^4.0.1",
+    "node-fetch": "^1.7.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-timeout": "^1.0.1"
+    "react-open-weather-map": "^2.3.0",
+    "react-redux": "^5.0.6",
+    "react-timeout": "^1.0.1",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "redux-devtools": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

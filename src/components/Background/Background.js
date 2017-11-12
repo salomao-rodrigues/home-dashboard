@@ -17,6 +17,9 @@ class Background extends React.Component {
     };
 
     this.nextImage = this.nextImage.bind(this);
+  }
+
+  componentDidMount() {
     this.nextImage();
   }
 
